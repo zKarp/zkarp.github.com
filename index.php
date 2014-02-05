@@ -13,24 +13,9 @@
 <body>
 <div id="bg">
 <div id="main">
-<!-- header begins -->
-<div id="header">	
-	
-	 <!-- Navigation -->
-			<div id="navigation">
-				<ul>
-				    <li class="first"><a href="index.html">Home</a></li>
-				    <li><a href="#">About Me</a></li>
-				    <li><a href="/blog">Blog</a></li>
-				    <li><a href="#">Gallery</a></li>
-				    <li><a href="portfolio.php">Projects</a></li>
-				    <li><a href="contact.php">Contact</a></li>	    	
-	
-				</ul>
-			</div>
-			<!-- End Navigation -->
-	
-	<!-- Slider -->
+<?php
+include_once("include/header.php");
+?>
 		<div id="slider">
 			<a id="slider-prev">&nbsp;</a>
 			<div class="slider-content">
@@ -52,13 +37,21 @@
 			</div>			
 		</div>
 </div>
-<div id="footer">
-			<div id="footer_bot">
-				<p>Copyright  2012. Designed by Zachary Karpinski</p>
-				</div></div>
-<!-- footer ends -->
-
-
+<div id="content_bg">
+	<div class="marg_top2">
+				
+				<div class="col2 pad_left1">
+					<div class="pad">
+						
+						<h2>Website currently under-construction</h2>
+						<strong>Feel free to browse the blog and portfolio pages.</strong><br />	
+					</div>
+				</div>
+	</div>
+</div>
+<?php
+include_once("include/footer.php");
+?>
 </div>
 </body>
 </html>
